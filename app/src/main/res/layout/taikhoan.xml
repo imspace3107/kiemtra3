@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9999"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#FF5722"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_gravity="center"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        />
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#fff"
+            android:text="Đăng nhập"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Coffee House Rewards"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin tai khoản"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nhạc đang phát"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lịch sử"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Giúp đở"
+                android:textSize="25dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_baseline_stars_24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cài đặt"
+                android:textSize="25dp"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
